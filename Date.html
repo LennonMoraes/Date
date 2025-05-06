@@ -1,0 +1,45 @@
+<html lang="pt-br">
+    <head l>
+        <meta charset="UTF-8">
+        <title>3°Date?</title>
+        <link rel="stylesheet" href="Perfil.css">
+    </head>
+    <body>
+        <div id="content">
+            <h2>Aceita um 3° Date?</h2>
+            <button onclick="sim()">SIM</button>
+            <button onmouseover="nao(this)">NÃO</button>
+        </div>
+    </body>
+    <style>
+        #content{
+            background-color: aquamarine;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+    </style>
+    <script>
+        function SIM(){
+            alert("Você aceitou sair com o Leno");
+            sh
+        }
+        function nao(t){
+            var btn= t;
+            btn.style.position = 'absolute';
+            btn.style.bottom= NewPostion(10, 90);
+            btn.style.left=NewPostion(0 ,100);
+        
+        }
+      
+        function NewPostion(min, max){
+            return (Math.random()*(max-min) + min) + "%";
+        }
+    </script>
+
+
+</html>
